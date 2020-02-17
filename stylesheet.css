@@ -1,0 +1,31 @@
+html {
+  font-size: 125%;
+}
+
+
+p {
+  color: #5588C2;
+  font-family: "Alegreya", "Merriweather", Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1 {
+  color: #284C75;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem
+}
+
+body {
+  background-color: #C29B55;
+}
+
+#container {
+  width: 85%;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
