@@ -2,12 +2,18 @@ html {
   font-size: 125%;
 }
 
-
 p {
-  color: #5588C2;
+  color: #284C75;
   font-family: "Alegreya", "Merriweather", Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: left;
+}
+
+img {
+  display: block;
+  background-color: #75551C;
+  text-align: center;
 }
 
 .italic {
@@ -17,15 +23,51 @@ p {
 h1 {
   color: #284C75;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 2rem
+  font-size: 2rem;
 }
 
 body {
-  background-color: #C29B55;
+  background-image: url("OregonHills.JPG");
 }
 
 #container {
   width: 85%;
-  background-color: #ffffff;
+  background-color: #C29B55;
   margin: 0 auto;
+}
+
+#nav li {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+#nav {
+  padding: 0;
+  list-style-type: none;
+}
+
+#nav a:link, #nav a:visited {
+	display:block;
+    color: #ffffff;
+    background-color: #8AC0FF;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Alegreya", "Merriweather", Helvetica, sans-serif;
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #5588C2;
+}
+
+#footer {
+  color: #284C75;
+  font-family: Georgia, "Times New Roman", sans-serif;
+  font-size: 0.8em:
+  border-top: 1px solid black;
 }
