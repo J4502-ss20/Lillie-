@@ -27,6 +27,7 @@ h1 {
 body {
   background-image: url("OregonHills.JPG");
   width: 100%;
+  background-repeat: no-repeat;
 }
 
 .center {
