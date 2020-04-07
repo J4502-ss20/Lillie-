@@ -16,17 +16,49 @@ p {
   font-style: italic;
 }
 
+body {
+  background-color: #C29B55;
+}
+
 h1 {
   color: #284C75;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Helvetica, sans-serif;
   font-size: 2rem;
-  padding-right: 40px;
   padding-left: 40px;
 }
 
-body {
-  background-image: url("OregonHills.JPG");
+.image-1, .image-2, .image-3 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.image-1 img {
   width: 100%;
+}
+
+.image-2 img {
+  width: 100%;
+}
+
+.image-3 img {
+  width: 100%;
+}
+
+.section1, .section2 {
+  max-width: 900px;
+}
+
+h2 {
+  color: #284C75;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  padding-left: 40px;
+}
+
+.pullquote-1 {
+  font-family: Helvetica;
+  font-size: 1.3rem;
 }
 
 .nav {
@@ -41,22 +73,16 @@ body {
   margin: 5px;
 }
 
-@media (min-width: 1000px) {
-  .nav {
-    flex-direction: row;
-  }
-}
-
-.center {
+/* .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+} */
 
 #container {
   width: 85%;
-  background-color: #C29B55;
+  background-color: #ffffff;
   margin: 0 auto;
 }
 
@@ -94,4 +120,95 @@ body {
   font-family: Georgia, "Times New Roman", sans-serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+}
+
+@media screen and (min-width: 600px) {
+  .image-1 img {
+    max-width: 400px;
+  }
+
+  .image-2 img {
+    max-width: 500px;
+  }
+
+  .image-3 img {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .article-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b"
+        ". b"
+        "d c"
+        "f e";
+  }
+
+  .image-1 {
+    grid-area: a;
+  }
+
+  .section1 {
+    grid-area: b;
+  }
+
+  .image-2 {
+    grid-area: c;
+  }
+
+  .pullquote-1 {
+    grid-area: d;
+  }
+
+  .section2 {
+    grid-area: e;
+  }
+
+  .image-3 {
+    grid-area: f;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .nav {
+    flex-direction: row;
+  }
+
+  .image-1 {
+    margin-left: 30px;
+  }
+
+  .article-1 {
+    display: grid;
+    grid-template-columns: 350px 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b b"
+        ". b b"
+        "d c c"
+        "f e e";
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .image-1 {
+    width: 70%;
+  }
+
+  .article-1 {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b"
+        ". c"
+        ". e"
+        "d f";
+  }
+
 }
