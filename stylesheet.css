@@ -45,6 +45,11 @@ h1 {
   width: 100%;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .section1, .section2 {
   max-width: 900px;
 }
