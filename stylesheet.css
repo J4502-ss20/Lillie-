@@ -110,20 +110,19 @@ nav a {
   padding: 0 10px;
 }
 
-/*.nav a:link, .nav a:visited {
+.nav a:link, .nav a:visited {
 	display:block;
     color: #ffffff;
     background-color: #8AC0FF;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    padding: 4px;
     font-family: "Alegreya", "Merriweather", Helvetica, sans-serif;
 }
 
 .nav a:hover, .nav a:active {
     background-color: #5588C2;
-}*/
+}
 
 .menu-trigger {
   order: 1;
@@ -223,20 +222,6 @@ nav a {
 
   .menu-trigger {
     display: none;
-  }
-
-  .nav a:link, .nav a:visited {
-    display: block;
-      color: #ffffff;
-      background-color: #8AC0FF;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      font-family: "Alegreya", "Merriweather", Helvetica, sans-serif;
-  }
-
-  .nav a:hover, .nav a:active {
-      background-color: #5588C2;
   }
 
 }
