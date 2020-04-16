@@ -86,6 +86,10 @@ h2 {
   margin: 0 auto;
 }
 
+nav {
+  width: 100%;
+}
+
 .nav li {
     display: block;
     border-top: 1px #ccc solid;
@@ -93,6 +97,8 @@ h2 {
 
 .nav {
   display: none;
+  justify-content: space-between;
+
 }
 
 nav a {
