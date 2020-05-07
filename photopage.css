@@ -54,7 +54,6 @@ h2 {
   color: #284C75;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2rem;
-  padding-left: 40px;
 }
 
 .pullquote-1 {
@@ -160,75 +159,48 @@ h3, h4, h5 {
   font-family: Georgia, "Times New Roman", sans-serif;
   font-size: 0.6em;
   border-top: 1px solid black;
-}
-
-@media screen and (min-width: 600px) {
-  .image-1 img {
-    max-width: 400px;
-  }
-
-  .image-2 img {
-    max-width: 500px;
-  }
-
-  .image-3 img {
-    max-width: 400px;
-  }
+  padding-left: 5px;
 }
 
 @media screen and (min-width: 800px) {
-  .article-1 {
+  .photo-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
-        "a b"
-        ". b"
         "d c"
-        "f e";
+        "a c"
+        "a b";
   }
 
-  .image-1 {
+  .photo-1 {
     grid-area: a;
   }
 
-  .section1 {
+  .photo-2 {
     grid-area: b;
   }
 
-  .image-2 {
+  .photo-3 {
     grid-area: c;
   }
 
-  .pullquote-1 {
+  .photo-4 {
     grid-area: d;
-  }
-
-  .section2 {
-    grid-area: e;
-  }
-
-  .image-3 {
-    grid-area: f;
   }
 
 }
 
 @media screen and (min-width: 1000px) {
 
-  .image-1 {
-    margin-left: 30px;
-  }
-
-  .article-1 {
+  .photo-gallery {
     display: grid;
-    grid-template-columns: 350px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
-        "a b b"
-        ". b b"
-        "d c c"
-        "f e e";
+        "d c b"
+        "a c ."
+        "a . .";
   }
 
 }
@@ -261,33 +233,6 @@ h3, h4, h5 {
 
   .nav a:hover, .nav a:active {
       background-color: #5588C2;
-  }
-
-}
-
-@media screen and (min-width: 1200px) {
-  .image-1 {
-    width: 70%;
-  }
-
-  .section1, .section2, .image-2, .image-3 {
-    max-width: 700px;
-  }
-
-  .image-2 {
-    display: flex;
-    justify-content: center;
-  }
-
-  .article-1 {
-    display: grid;
-    grid-template-columns: 250px 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-        "a b b ."
-        ". c c ."
-        ". e e ."
-        "d f f .";
   }
 
 }
