@@ -111,6 +111,10 @@ h3, h4, h5 {
   color: #8AC0FF;
 }
 
+.item-1 img {
+  max-width: 400px;
+}
+
 .item-2 a {
   color: #284C75;
   text-decoration: none;
@@ -205,6 +209,20 @@ h3, h4, h5 {
 
   .image-3 {
     grid-area: f;
+  }
+
+  .item-1 {
+    display: flex;
+  }
+
+  .item-1 img {
+    display: flex;
+  }
+
+  .media-body-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
   }
 
 }
