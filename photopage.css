@@ -35,6 +35,11 @@ h1 {
   width: 100%;
 }
 
+.photo-1, .photo-2, .photo-3, .photo-4 {
+  padding-bottom: 20px;
+  max-width: 350px;
+}
+
 .image-1, .image-2, .image-3 {
   display: flex;
   padding: 20px;
@@ -155,7 +160,6 @@ h3, h4, h5 {
   font-family: Georgia, "Times New Roman", sans-serif;
   font-size: 0.6em;
   border-top: 1px solid black;
-  padding-left: 5px;
 }
 
 @media screen and (min-width: 600px) {
