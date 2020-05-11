@@ -63,7 +63,7 @@ h2 {
 
 .item-1 img {
   display: flex;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .media-body-1 {
@@ -76,14 +76,18 @@ h2 {
   font-size: 1rem;
 }
 
+.media-body-2 img {
+  max-width: 500px;
+}
+
 .item-3 img {
   display: flex;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .item-4 img {
   display: flex;
-  max-width: 400px;
+  max-width: 500px;
   margin-bottom: 10px;
 }
 
@@ -122,7 +126,7 @@ nav a {
   padding: 0 10px;
 }
 
-.item-2, .item-3, .item-4 {
+.item-2, .item-3, .item-4, .item-5 {
   border-bottom: 1px solid black;
   margin-bottom: 10px;
 }
@@ -170,13 +174,22 @@ h3, h4 {
   color: #8AC0FF;
 }
 
+.item-5 a {
+  color: #284C75;
+  text-decoration: none;
+}
+
+.item-5 a:hover, .nav a:active {
+  color: #8AC0FF;
+}
+
 h4 {
   color: #284C75;
   text-decoration: none;
 }
 
 .lesson {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-style: italic;
   background-color: #8AC0FF;
   padding-left: 15px;
